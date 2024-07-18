@@ -38,7 +38,7 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({
 
                         {/* Close Button */}
                         <div className="flex items-center justify-end px-4">
-                            <IconButton icon={<X size={15} />} onClick={onClose} />
+                            <IconButton className="" icon={<X size={15} />} onClick={onClose} />
                         </div>
 
                         {/* Render the filters */}
